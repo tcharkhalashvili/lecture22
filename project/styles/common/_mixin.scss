@@ -1,5 +1,15 @@
 
-
+@mixin titele {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #ff9800;
+    display: grid;
+    font-family: mulish;
+}
+@mixin text {
+    
+}
 @mixin center {
     display: flex;
     flex-direction: column;
