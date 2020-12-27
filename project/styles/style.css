@@ -63,7 +63,8 @@
 }
 
 .wrapper .slider {
-  background-image: url(../images/6.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 34, 69, 0.5)), to(rgba(0, 34, 69, 0.5))), url(../images/6.jpg);
+  background-image: linear-gradient(rgba(0, 34, 69, 0.5), rgba(0, 34, 69, 0.5)), url(../images/6.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -650,6 +651,11 @@
   -o-object-fit: cover;
      object-fit: cover;
   transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
+}
+
+.wrapper .cards .card .card_img img:hover {
+  -webkit-transform: rotate(15deg) scale(1.4);
+          transform: rotate(15deg) scale(1.4);
 }
 
 .wrapper .cards .card .card_body {
